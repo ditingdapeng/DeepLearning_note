@@ -60,7 +60,7 @@ softmax运算是为了表达出样本预测各个输出的概率，得到的矩�
 
 ![1582248700666](C:\Users\MAIBENBEN\AppData\Roaming\Typora\typora-user-images\1582248700666.png)
 
-**解答**：参考原书中的代码，train的accuracy在一个epoch中完成，test的accuracy在epoch后完成。对于A选项，过拟合现象是训练误差远小于测试集上的误差，而不是准确率。故选C。
+**解答**：参考原书中的代码，train的accuracy在一个epoch中完成，test的accuracy在epoch后完成。对于A选项，过拟合的结果应该是train_data的acc高于test_data，而不是低于，故选C。
 
 # 多层感知机
 
